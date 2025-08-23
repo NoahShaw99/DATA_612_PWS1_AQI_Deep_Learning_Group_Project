@@ -13,7 +13,6 @@ The model is a compact hybrid architecture:
 - **Trend branch:** light **temporal CNN** with global pooling
 - **Gated fusion** of seasonal/trend embeddings
 - **Head:** predicts normalized corrections which are added to a learned blend of Last value and Last‑week value
-- **Group embedding** and **calendar** features
 
 ---
 
@@ -64,8 +63,8 @@ For each configuration we print the metrics and save four plots:
 
 1. **Train vs Validation Loss** – (SmoothL1 + λ‖Δ‖²)  
    Filename: `trainloss_vs_valloss_lb{LB}_bs{BS}.png`
-2. **Train Loss vs Validation RMSE**  
-   Filename: `trainloss_vs_valrmse_lb{LB}_bs{BS}.png`
+**Train vs Validation RMSE**  
+   Filename: `train_vs_val_rmse_lb{LB}_bs{BS}.png`
 3. **MAE per Horizon** (Error over forecast day 1 through 7)  
    Filename: `error_over_horizon_lb{LB}_bs{BS}.png`
 4. **Predicted vs Actual** scatter with dashed red ideal line and R² in title  
