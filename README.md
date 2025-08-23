@@ -63,7 +63,7 @@ For each configuration we print the metrics and save four plots:
 
 1. **Train vs Validation Loss** – (SmoothL1 + λ‖Δ‖²)  
    Filename: `trainloss_vs_valloss_lb{LB}_bs{BS}.png`
-**Train vs Validation RMSE**  
+2. **Train vs Validation RMSE**  
    Filename: `train_vs_val_rmse_lb{LB}_bs{BS}.png`
 3. **MAE per Horizon** (Error over forecast day 1 through 7)  
    Filename: `error_over_horizon_lb{LB}_bs{BS}.png`
