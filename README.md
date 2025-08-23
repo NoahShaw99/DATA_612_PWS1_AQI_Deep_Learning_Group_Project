@@ -111,6 +111,10 @@ For more detailed instructions please see `Instructions.md`.
 ### Notes on Reproducibility
 We set seeds where appropriate but there can be small run‑to‑run variations. Please expect minor differences in RMSE/R² around ±0.01.
 
+### Implementation and Runtime Notes
+The implmentation tools that we used for this project are Visual Studio Code and Google Colab.
+
+The runtime of the primary single model run was around 2-3 minutes and the runtime of the experiments was about 30 minutes on Noah Shaw's home PC.
 ---
 
 ## Repository Structure
@@ -121,5 +125,5 @@ We set seeds where appropriate but there can be small run‑to‑run variations.
 ├── requirements.txt
 ├── README.md
 ├── Instructions.md
-└── aqi_outputs/        # created by the notebook
+└── aqi_outputs/        # can also be created by the notebook
 ```
