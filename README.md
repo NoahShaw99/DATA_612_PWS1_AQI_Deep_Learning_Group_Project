@@ -72,7 +72,7 @@ For each configuration we print the metrics and save four plots:
    Filename: `pred_vs_actual_lb{LB}_bs{BS}.png`
 
 Additionally, the notebook writes:
-- Best model weights (`model_best.pt`) for the primary run
+- Best model weights (`model_best.pt`) for the primary single model run
 - Training history CSV (`training_history.csv`)
 
 ---
