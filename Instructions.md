@@ -74,7 +74,7 @@ This will train and evaluate each configuration and save plots.
 For **each (lb, bs)** you should see **four** plots:
 
 - `trainloss_vs_valloss_lb{LB}_bs{BS}.png`
-- `trainloss_vs_valrmse_lb{LB}_bs{BS}.png`
+- `train_vs_val_rmse_lb{LB}_bs{BS}.png`
 - `error_over_horizon_lb{LB}_bs{BS}.png`
 - `pred_vs_actual_lb{LB}_bs{BS}.png`
 
