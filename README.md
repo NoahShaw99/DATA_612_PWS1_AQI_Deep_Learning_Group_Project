@@ -66,9 +66,9 @@ For each configuration we print the metrics and save four plots:
    Filename: `trainloss_vs_valloss_lb{LB}_bs{BS}.png`
 2. **Train Loss vs Validation RMSE**  
    Filename: `trainloss_vs_valrmse_lb{LB}_bs{BS}.png`
-3. **MAE per Horizon** (Error over forecast day 1..7)  
+3. **MAE per Horizon** (Error over forecast day 1 through 7)  
    Filename: `error_over_horizon_lb{LB}_bs{BS}.png`
-4. **Predicted vs Actual** scatter with dashed red *ideal* line and **R²** in title  
+4. **Predicted vs Actual** scatter with dashed red ideal line and R² in title  
    Filename: `pred_vs_actual_lb{LB}_bs{BS}.png`
 
 Additionally, the notebook writes:
