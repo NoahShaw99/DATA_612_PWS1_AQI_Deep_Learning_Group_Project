@@ -37,6 +37,8 @@ Instructions on how to install all of the dependencies:
 
 Python: https://www.python.org/download/releases/2.5/msi/ and https://realpython.com/installing-python/
 
+Jupyter: https://jupyter.org/install
+
 NumPy: https://numpy.org/install/
 
 Pandas: https://pandas.pydata.org/docs/getting_started/install.html
