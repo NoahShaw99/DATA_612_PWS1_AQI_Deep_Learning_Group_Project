@@ -79,6 +79,8 @@ Additionally, the notebook writes:
 
 ## Quickstart
 
+Python version that was used was **3.10.18**
+
 ```bash
 # (Optional) create & activate a virtual env
 # macOS/Linux
