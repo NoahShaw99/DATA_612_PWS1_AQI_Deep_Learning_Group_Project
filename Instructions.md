@@ -2,6 +2,8 @@
 
 This guide reproduces the training runs, evaluation metrics, and the four output plots per configuration.
 
+Python version that was used was **3.10.18**
+
 ## 1) Environment
 
 ```bash
